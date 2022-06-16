@@ -57,10 +57,6 @@ export default function SummaryPage(){ // esta es la funcion principal
                     navigate(`/orderpayment/${r.payload._id}`)
                 })
             })
-            // let ordenNueva = await dispatch(CREATEORDER(order))
-            // dispatch(GETORDER(ordenNueva.payload)).then(()=>
-            // navigate(`/orderpayment/${ordenNueva.payload}`))
-            // removeAllCartProduct()
         }
             
     }
